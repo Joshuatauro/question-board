@@ -1,0 +1,185 @@
+.card-inner-container{
+  display: flex;
+}
+
+.card-col-1{
+  flex-basis: 70%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  position: relative;
+
+  font-size: 14px;
+
+  background-color: white;
+}
+
+.special{
+  color: #32bc9b;
+  margin-left: 10px;
+}
+
+.card-price-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-price-rating{
+  /* border-top: 1px solid  rgb(145, 139, 139); */
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin: 36px 0 0;
+
+}
+
+.card-image{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+
+  top: 20px;
+}
+
+.card-image::after{
+  content: '';
+  position: fixed;
+  top: 0;
+  width: 10000px;
+  height: 10000px;
+  background-color: black;
+  display: block;
+}
+
+.card-price-container{
+
+  margin: 25px 0 0 0;
+  padding: 10px 0 0;
+
+}
+
+.card-star{
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+.card-rating-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 20px 0 0;
+}
+
+.card-rating{
+  margin: 0 10px 0 10px;
+
+  color: #f38454;
+}
+
+.card-col-2{
+  background-color: white;
+}
+
+
+.card-col-col{
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: 1px solid rgb(145, 139, 139);
+
+  padding: 15px 20px;
+}
+
+.card-profile h1{
+  font-size: 25px;
+}
+
+.card-profile h3{
+  margin: 15px 0 0;
+  font-size: 15px;
+}
+
+.view-profile{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.view-inner-container{
+  display: flex;
+  align-items: center;
+}
+
+.fa-heart{
+  color: #f38454;
+  font-size: 30px;
+
+  margin: 0 30px 0 0;
+}
+
+.view-container button{
+  padding: 9px 15px;
+  background-color: #f38454;
+  border-radius: 5px;
+
+  color: white;
+  font-weight: 800;
+}
+
+.card-session-container,
+.card-session-available,
+.card-location,
+.card-language{
+  display: flex;
+  align-items: center;
+
+  font-size: 13px;
+
+  color:#8f9bb3;
+}
+
+.card-language span,
+.card-session-available i,
+.card-location i{
+  margin: 0 10px 0 0;
+}
+
+.card-session-container{
+  padding: 10px 15px;
+}
+
+.card-location{
+  margin: 0 20px
+}
+
+.card-main-about{
+  padding: 15px 15px;
+  font-size: 13px;
+}
+
+.card-bubble-container{
+  padding: 0 15px 20px;
+  display: flex;
+}
+
+.card-bubble{
+  padding: 5px 15px;
+  margin: 0 5px;
+  font-size: 14px;
+  border-radius: 20px;
+  background-color: #d3d5da;
+  color: #738ba6;
+}
+
+.card-container{
+  margin:0 0 20px 0;
+}

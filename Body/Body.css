@@ -1,0 +1,14 @@
+.main-app{
+  background-color: #f7f9fc;
+}
+
+.main-app__container{
+  display: flex;
+  /* background-color: #f7f9fc; */
+  width: 97%;
+  margin: auto;
+}
+
+.sidebar-container{
+  margin: 0 20px 0 0;
+}

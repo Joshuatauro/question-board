@@ -1,0 +1,132 @@
+.sidebar{
+  padding: 20px 0;
+}
+
+.sidebar-content{
+  padding: 20px 0 55px;
+  font-size: 13px;
+}
+
+.sidebar-container{
+  background-color: white;
+
+}
+
+.sidebar-inner-container{
+  padding: 10px 20px;
+  /* width: 95%;
+  margin: auto; */
+}
+
+.expertise h2,
+.focus h2,
+.rating h2,
+.price h2,
+.session h2,
+.language h2{
+  font-size: 15px;
+  color: #8f9bb3;
+  padding: 10px 0;
+
+  text-transform: uppercase;
+}
+
+.expertise,
+.focus,
+.rating,
+.price,
+.session,
+.language{
+  margin-bottom: 40px;
+}
+
+
+
+.expertise-branding-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.focus-area-row{
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.focus-area-row.active-row{
+  justify-content: space-between;
+}
+
+.focus-area-row-row{
+  display: flex;
+  align-items: center;
+}
+
+.item-row{
+  display: flex;
+  align-items: center;
+  margin: 10px 5px;
+}
+
+.item-row h3{
+  margin: 0 0 0 5px;
+  font-size: 15px;
+}
+
+.active-row{
+  background-color: #f7f9fc;
+  border: 1px solid #ccdcf3;
+}
+
+.fa-search,
+.fa-check-square{
+  color: #32bc9b;
+}
+
+.fa-square{
+  color: #edeff3;
+  border: 1.5px solid #ced2d8;
+}
+
+.fa-star{
+  color: #f38454;
+  margin: 0 5px;
+}
+
+.curve-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 13px;
+  width: 90px;
+  padding: 2px 10px;
+  height: 20px;
+  margin: 0 5px;
+  
+  border-radius: 20px;
+  background-color: red;
+  color: white;
+}
+
+.blue{
+  background-color: #3c67e8;
+  color: white;
+}
+
+.green{
+  background-color: #a7cd6e;
+}
+
+.rating-row{
+  display: flex;
+  align-items: center;
+}
+
+.rating-star-container{
+  display: flex;
+  align-items: center;
+  margin: 15px 7px;
+}

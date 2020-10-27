@@ -1,0 +1,24 @@
+.main{
+  padding: 20px 0;
+}
+.main-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 40px;
+
+  font-size: 13px;
+}
+
+.dropdown-container{
+  display: flex;
+  align-items: center;
+
+  padding: 10px 20px;
+
+  background-color: white;
+}
+
+.dropdown-container h3{
+  margin: 0 25px 0 0;
+}
